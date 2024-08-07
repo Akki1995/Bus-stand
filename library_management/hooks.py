@@ -228,9 +228,19 @@ app_license = "mit"
 # }
 
 fixtures = [
-  'Custom Field'
+
+  {
+        "dt": "Custom Field",
+        "filters":[
+            [
+                "name","in",[
+                    'Asset-custom_serial_no',
+                ]]]}
+  # 'Custom Field'
   # {
   #   "dt":"Bus Stand"
   # }
 
 ]
+
+
