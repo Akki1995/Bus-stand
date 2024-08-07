@@ -9,7 +9,8 @@
   "section_break_9xe7",
   "name1",
   "field",
-  "city"
+  "city",
+  "test"
  ],
  "fields": [
   {
@@ -31,11 +32,17 @@
    "fieldname": "city",
    "fieldtype": "Data",
    "label": "city"
+  },
+  {
+   "default": "0",
+   "fieldname": "test",
+   "fieldtype": "Check",
+   "label": "test"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-07 12:57:58.869964",
+ "modified": "2024-08-07 13:18:22.375312",
  "modified_by": "Administrator",
  "module": "library_management",
  "name": "Bus Stand",
